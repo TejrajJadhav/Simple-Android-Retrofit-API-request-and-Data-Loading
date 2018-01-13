@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/transparent1"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/item"
+        android:padding="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="2dp"
+        android:layout_weight="1"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/comapny_name"
+                android:textSize="13sp"
+                android:paddingRight="7dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/dark_text"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:id="@+id/address"
+                android:textSize="13sp"
+                android:paddingRight="7dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/dateColor"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No upcoming meeting"
+                android:id="@+id/upcoming"
+                android:textSize="13sp"
+                android:paddingRight="7dp"
+                android:layout_marginTop="-4dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/dateColor"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            >
+
+         <!--   <com.like.LikeButton
+                app:icon_type="heart"
+                android:id="@+id/favorite_flag"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="7dp"
+                android:layout_marginRight="-10dp"
+                android:layout_gravity="right"
+                app:liked="false"
+
+                />
+-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorGrayBg"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#44cece</color>
+    <color name="colorPrimaryDark">#343434</color>
+    <color name="colorBottomTabs">#eeeeee</color>
+    <color name="colorPrimaryDark2">#fffeff</color>
+
+    <color name="colorAccent">#44cece</color>
+    <!-- <color name="colorAccent">#343434</color>-->
+    <color name="colorControlHighlight">#44cece</color>
+    <color name="colorPressedHighlight">#b6b6b6</color>
+    <color name="transperent">#00000000</color>
+    <color name="dark_text">#343434</color>
+    <color name="calendar_date">#252525</color>
+    <color name="colorGray">#d2d2d2</color>
+    <color name="colorGrayBg">#ececec</color>
+    <color name="colorStatusBar">#3aafaf</color>
+    <color name="colorLoginBg">#f7f7f7</color>
+    <color name="colorTabsText">#dbfcfc</color>
+    <color name="white">#ffffff</color>
+
+    <color name="meeting">#009688</color>
+    <color name="call">#00547C</color>
+    <color name="videoConference">#FFD740</color>
+
+    <color name="dateColor">#939393</color>
+    <color name="horizontalDateColor">#464646</color>
+    <color name="profileBgGray">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="black_opac">#40BDBDBD</color>
+    <color name="meeting_header">#f9f9f9</color>
+    <color name="transparent1">#00000000</color>
+    <color name="order_bg">#dfdfdf</color>
+    <color name="meetingDone">#737373</color>
+    <color name="activity_color">#FF7400</color>
+
+    <!--Order colors -->
+
+    <color name="order_confirmed">#38D57A</color>
+    <color name="order_cancelled">#E6614F</color>
+    <color name="order_pending">#FFCC02</color>
+
+
+    <!--Meeting colors -->
+    <color name="mcolor_cancelled">#E6614F</color>
+    <color name="mcolor_done">#38D57A</color>
+    <color name="mcolor_going_on">#03A9F3</color>
+    <color name="mcolor_scheduled">#FFCC02</color>
+    <color name="mcolor_ununttended">#B5B5B5</color>
+
+</resources>
