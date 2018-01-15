@@ -15,7 +15,7 @@ import retrofit2.http.POST;
 
 public interface Webservice {
 // same like ur request interface
-  
+
 //  get method call like this
 
 //    @FormUrlEncoded
